@@ -9,7 +9,7 @@
     "cache",
     "storage",
     "store",
-    "vstore"
+    "kstore"
   ],
   "author": "aiden",
   "license": "ISC",
