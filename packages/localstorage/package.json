@@ -12,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "vstore": "workspace:^"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
