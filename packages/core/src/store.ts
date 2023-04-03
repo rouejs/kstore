@@ -2,7 +2,7 @@ import { Adapter } from "./adapter";
 import MCAdapter from "./mc";
 import type { GetStoreItemStruct, SetStoreItemStruct, StoreConfig } from "./typing";
 
-export class VStore {
+export class KStore {
   /**
    * 基础配置
    *

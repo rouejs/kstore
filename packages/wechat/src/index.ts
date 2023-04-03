@@ -8,7 +8,7 @@ interface StoreItem {
 // 缓存过期检查间隔时间
 const CHECK_TIME = 1000;
 // 缓存前缀 用来识别是否是vstore缓存
-const PREFIX = "vstore:";
+const PREFIX = "kstore:";
 export default class WeChatStorage implements Adapter {
   // 静态属性，用来实现单例模式
   static _instance: WeChatStorage;
