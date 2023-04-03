@@ -29,16 +29,16 @@ importers:
 
   packages/localstorage:
     specifiers:
-      kstore: workspace:^
+      '@kstore/core': workspace:^
     dependencies:
-      kstore: link:../core
+      '@kstore/core': link:../core
 
   packages/wechat:
     specifiers:
-      kstore: workspace:^
+      '@kstore/core': workspace:^
       miniprogram-api-typings: ^3.9.0
     dependencies:
-      kstore: link:../core
+      '@kstore/core': link:../core
     devDependencies:
       miniprogram-api-typings: 3.9.0
 

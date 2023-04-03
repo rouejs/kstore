@@ -1,17 +1,17 @@
 {
   "name": "@kstore/localstorage",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "node ../../scripts/prod.js &&  tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "kstore": "workspace:^"
+    "@kstore/core": "workspace:^"
   },
   "publishConfig": {
     "access": "public"

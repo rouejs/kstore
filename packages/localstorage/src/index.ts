@@ -1,4 +1,4 @@
-import { Adapter, GetStoreItemStruct, SetStoreItemStruct, StoreConfig } from "kstore";
+import { Adapter, GetStoreItemStruct, SetStoreItemStruct, StoreConfig } from "@kstore/core";
 
 interface StoreItem {
   value: unknown;

@@ -1,10 +1,10 @@
 {
   "name": "@kstore/core",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "node ../../scripts/prod.js &&  tsc",
     "test": "jest --detectOpenHandles"
   },
   "keywords": [],

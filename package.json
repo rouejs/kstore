@@ -1,6 +1,7 @@
 {
   "private": true,
   "description": "Cache Manager",
+  "type": "module",
   "scripts": {
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "test": "jest"
