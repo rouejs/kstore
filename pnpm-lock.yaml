@@ -29,9 +29,18 @@ importers:
 
   packages/localstorage:
     specifiers:
-      vstore: workspace:^
+      kstore: workspace:^
     dependencies:
-      vstore: link:../core
+      kstore: link:../core
+
+  packages/wechat:
+    specifiers:
+      kstore: workspace:^
+      miniprogram-api-typings: ^3.9.0
+    dependencies:
+      kstore: link:../core
+    devDependencies:
+      miniprogram-api-typings: 3.9.0
 
 packages:
 
@@ -2932,6 +2941,10 @@ packages:
 
   /minimist/1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
+    dev: true
+
+  /miniprogram-api-typings/3.9.0:
+    resolution: {integrity: sha512-QCXHHW9H4XYazb8J9EMiFyaOWHXhBG4oehkQqi+76FJpKKIlpgL0ZkXxzJ2L+6T/c5OxKm7iegovKIQGVkZDLQ==}
     dev: true
 
   /modify-values/1.0.1:

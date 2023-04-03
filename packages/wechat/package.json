@@ -1,5 +1,5 @@
 {
-  "name": "@kstore/localstorage",
+  "name": "@kstore/wechat",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
@@ -15,5 +15,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "miniprogram-api-typings": "^3.9.0"
   }
 }
