@@ -24,7 +24,8 @@ export class KStore {
       max: 1000,
       ...config,
     };
-    this.adapter = this.baseConfig.adapter || new MCAdapter(this.baseConfig);
+    const Adapter = this.baseConfig.adapter || MCAdapter;
+    this.adapter = new Adapter(this.baseConfig);
   }
   /**
    * 通过缓存key获取缓存

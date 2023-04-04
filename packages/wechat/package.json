@@ -1,10 +1,10 @@
 {
   "name": "@kstore/wechat",
-  "version": "0.0.5",
+  "version": "0.0.10",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "node ../../scripts/prod.js &&  tsc",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

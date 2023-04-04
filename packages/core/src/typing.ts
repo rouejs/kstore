@@ -4,7 +4,7 @@ export interface StoreConfig {
   namespace: string;
   ttl: number;
   max: number;
-  adapter?: Adapter;
+  adapter?: new (config: StoreConfig) => Adapter;
 }
 
 export interface StoreItemStruct {
